@@ -9,7 +9,7 @@ import RightSideBar from "@components/layout/RightSideBar";
 import BottomBar from "@components/layout/BottomBar";
 
 export const metadata = {
-  title: "Vibe Zone",
+  title: "Social Zone",
   description: "Next 14 Social Media App",
 };
 
