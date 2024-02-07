@@ -4,13 +4,13 @@ import { Inter } from "next/font/google";
 
 import LeftSideBar from "@components/layout/LeftSideBar";
 import MainContainer from "@components/layout/MainContainer";
-import TopBar from "@components/layout/TopBar";
+import Topbar from "@components/layout/Topbar";
 import RightSideBar from "@components/layout/RightSideBar";
-import ButtomBar from "@components/layout/ButtomBar";
+import BottomBar from "@components/layout/BottomBar";
 
 export const metadata = {
-  title: "Social Zone",
-  description: "Next 14  Social Media App",
+  title: "Vibe Zone",
+  description: "Next 14 Social Media App",
 };
 
 const inter = Inter({ subsets: ["latin"] });
@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
             </MainContainer>
             <RightSideBar />
           </main>
-          <ButtomBar/>
+          <BottomBar />
         </body>
       </html>
     </ClerkProvider>
